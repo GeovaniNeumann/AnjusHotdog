@@ -421,6 +421,20 @@
         
         .footer-links a:hover {
             color: var(--yellow);
+        } 
+        
+        .dev-credits {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.4);
+        }
+
+        .dev-credits a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .dev-credits a:hover {
+            text-decoration: underline;
         }
         
         .copyright {
@@ -428,53 +442,53 @@
             color: #aaa;
         }
         /* Estilos para o logo container */
-.logo-container {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.logo-img {
-    height: 70px; /* Ajuste conforme necessário */
-    width: auto;
-    transition: transform 0.3s ease;
-}
-
-.logo-img:hover {
-    transform: scale(1.05);
-}
-
-.logo-text {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.2;
-}
-
-.logo-text span:first-child {
-    color: var(--yellow);
-    font-size: 1.8rem;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.logo-text span:last-child {
-    font-size: 1.2rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-/* Ajustes para mobile */
-@media (max-width: 768px) {
-    .logo-img {
-        height: 50px;
+    .logo-container {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        }
+        
+        .logo-img {
+            height: 70px; /* Ajuste conforme necessário */
+            width: auto;
+            transition: transform 0.3s ease;
+        }
+        
+        .logo-img:hover {
+            transform: scale(1.05);
+        }
+        
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+        }
+        
+        .logo-text span:first-child {
+            color: var(--yellow);
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        .logo-text span:last-child {
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+    
+    /* Ajustes para mobile */
+    @media (max-width: 768px) {
+        .logo-img {
+            height: 50px;
+        }
+        .logo-text span:first-child {
+            font-size: 1.4rem;
+        }
+        .logo-text span:last-child {
+            font-size: 0.9rem;
+        }
     }
-    .logo-text span:first-child {
-        font-size: 1.4rem;
-    }
-    .logo-text span:last-child {
-        font-size: 0.9rem;
-    }
-}
         
         @media (max-width: 768px) {
             .header-container {
@@ -836,7 +850,8 @@
             <a href="#about">Sobre</a>
             <a href="#contact">Contato</a>
         </div>
-        <p class="copyright">© 2023 Anjus Hot Dog. Todos os direitos reservados.</p>
+        <p class="copyright">© 2025 Anjus Hot Dog. Todos os direitos reservados.</p>
+        <p class="dev-credits">Desenvolvido por <a href="https://portifoliogeovani.netlify.app/"  target="_blank" class="dev-link">Geovani Neumann</a>.</p>
     </footer>
     
     <script>
